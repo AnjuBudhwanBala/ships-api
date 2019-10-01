@@ -1,8 +1,8 @@
 import React from 'react';
-import SearchBar from './exercise1/SearchBar/SearchBar';
+import SearchInput from './exercise2/SearchInput';
 
 function App() {
-  return <SearchBar />;
+  return <SearchInput />;
 }
 
 export default App;

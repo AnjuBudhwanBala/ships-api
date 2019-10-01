@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './SearchBar.module.css';
-import { ReactComponent as SearchGlassIcon } from '../../assets/magnifying-glass.svg';
+import { ReactComponent as SearchGlassIcon } from '../assets/magnifying-glass.svg';
 
 const SearchBar = () => {
   return (
