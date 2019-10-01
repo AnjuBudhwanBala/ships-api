@@ -6,7 +6,12 @@ const SearchBar = () => {
   return (
     <form>
       <div className={classes.SearchBarform}>
-        <input type="text" placeholder="Search" className={classes.Field} />
+        <input
+          id="search"
+          type="text"
+          placeholder="Search"
+          className={classes.Field}
+        />
         <SearchGlassIcon className={classes.SearchIcon} />
       </div>
     </form>
