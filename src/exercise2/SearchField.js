@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import classes from './SearchInput.module.css';
+import classes from './SearchField.module.css';
 import { ReactComponent as SearchGlassIcon } from '../assets/magnifying-glass.svg';
 import { ReactComponent as SearchCrossIcon } from '../assets/cross.svg';
 
-const SearchInput = () => {
+const SearchField = () => {
   const [isShow, setIsShow] = useState(true);
   const [searchValue, setSearchValue] = useState('');
 
@@ -43,4 +43,4 @@ const SearchInput = () => {
   );
 };
 
-export default SearchInput;
+export default SearchField;
