@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchInput from './exercise2/SearchInput';
+import SearchInput from './exercise3/SearchInput';
 
 function App() {
   return <SearchInput />;
