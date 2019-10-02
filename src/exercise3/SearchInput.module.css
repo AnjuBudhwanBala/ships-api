@@ -1,7 +1,6 @@
 .SearchBarform {
-  position: absolute;
   width: 100%;
-  top: 50px;
+  margin-top: 50px;
   color: #000;
   display: flex;
   justify-content: center;
