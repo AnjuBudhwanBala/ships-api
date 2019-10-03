@@ -20,9 +20,9 @@ To get the frontend running locally:
 - To view all exercise use the following links
     
    i) Exercise1: (http://localhost:3000/exercise1)<br/>
-  ii) Exercise2: (http://localhost:3000/exercise2)
- iii) Exercise3: (http://localhost:3000/exercise3)
- iv) Exercise4: (http://localhost:3000/exercise4)
+  ii) Exercise2: (http://localhost:3000/exercise2)<br/>
+ iii) Exercise3: (http://localhost:3000/exercise3)<br/>
+ iv) Exercise4: (http://localhost:3000/exercise4)<br/>
   
 
 
