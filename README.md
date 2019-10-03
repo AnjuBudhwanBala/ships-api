@@ -1,40 +1,28 @@
-## frontend assignment
+## Ships
 
-This project allows to asses potential frontend candidates with real, working code.
+This project allow to access all the ships data.
 
 ## Framework
-
-We have bootstrapped this assignment with [Create React App](https://github.com/facebookincubator/create-react-app) to give you the initial setup.
-
-However, you are not limited to React and plain css. If you feel strongly about using other frameworks (such as Vue) or libraries you are free to do so, but we encourage you to showcase your skills with React.
-
-## Folder Structure
-
-The initial project structure looks like this:
-
-```
-README.md
-node_modules/
-package.json
-.gitignore
-public/
-    index.html
-    favicon.ico
-    manifest.json
-    robots.txt
-server/
-    index.js
-    data/
-        ships.js
-src/
-    App.js
-    index.css
-    index.js
-    assets/
-        cross.svg
-        magnifying-glass.svg
-```
+- React
+- CSS
 
 ### Running the code
+To get the frontend running locally:
 
-We have provided you with two npm scripts. One to start the react application (`npm start`) and the other to start the server (`npm run server`).
+- Clone this repo
+
+- Run `npm install` to install all required dependencies
+
+- then use `npm start` to start the local server (this project uses create-react-app)
+
+- Local web server will use port 3000.
+
+- To view all exercise use the following links
+    
+   i) Exercise1: (http://localhost:3000/exercise1)<br/>
+  ii) Exercise2: (http://localhost:3000/exercise2)<br/>
+ iii) Exercise3: (http://localhost:3000/exercise3)<br/>
+ iv) Exercise4: (http://localhost:3000/exercise4)<br/>
+  
+
+
