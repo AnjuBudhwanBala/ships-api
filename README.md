@@ -3,8 +3,8 @@
 This project allow to access all the ships data.
 
 ## Framework
-React
-CSS
+- React
+- CSS
 
 ### Running the code
 To get the frontend running locally:
