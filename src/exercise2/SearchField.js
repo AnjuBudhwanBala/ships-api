@@ -1,17 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classes from './SearchField.module.css';
 import { ReactComponent as SearchGlassIcon } from '../assets/magnifying-glass.svg';
 import { ReactComponent as SearchCrossIcon } from '../assets/cross.svg';
 
-const SearchField = () => {
+const SearchField = ({ submit }) => {
   const [isShow, setIsShow] = useState(true);
   const [searchValue, setSearchValue] = useState('');
 
   //search change handler
   const searchChangeHandler = event => {
-    setIsShow(false);
-    setSearchValue(event.target.value);
+    const newStr = event.target.value.trimStart();
+    setSearchValue(newStr);
   };
+
+  useEffect(() => {
+    if (searchValue.length === 0) {
+      setIsShow(true);
+    } else {
+      setIsShow(false);
+    }
+  }, [searchValue]);
 
   //clear Search Field
   const clearFieldHandler = () => {
@@ -20,7 +28,7 @@ const SearchField = () => {
   };
 
   return (
-    <form>
+    <form autoComplete="off">
       <div className={classes.SearchBarform}>
         <input
           id="search"

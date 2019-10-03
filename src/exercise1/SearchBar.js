@@ -4,7 +4,7 @@ import { ReactComponent as SearchGlassIcon } from '../assets/magnifying-glass.sv
 
 const SearchBar = () => {
   return (
-    <form>
+    <form autoComplete="off">
       <div className={classes.SearchBarform}>
         <input
           id="search"
