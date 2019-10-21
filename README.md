@@ -16,6 +16,9 @@ To get the frontend running locally:
 - then use `npm start` to start the local server (this project uses create-react-app)
 
 - Local web server will use port 3000.
+- If your server is not running, use this npm script to start it:
+`npm run server`
+The server should now be running on http://localhost:4000
 
 - To view all exercise use the following links
     
